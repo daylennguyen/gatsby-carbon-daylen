@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Theme Carbon',
-    description: 'A Gatsby theme for the carbon design system',
-    keywords: 'gatsby,theme,carbon',
+    title: 'Daylen',
+    description: 'A theme using the carbon design system',
+    keywords: 'Daylen Nguyen,gatsby,theme,carbon',
   },
   pathPrefix: `/gtc`,
   plugins: [
