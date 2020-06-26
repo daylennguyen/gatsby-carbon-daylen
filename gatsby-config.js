@@ -42,6 +42,7 @@ module.exports = {
         },
       },
     },
+    'gatsby-plugin-catch-links',
     'gatsby-plugin-offline', // put this after gatsby-plugin-manifest
     'gatsby-plugin-netlify-cms'
   ],
