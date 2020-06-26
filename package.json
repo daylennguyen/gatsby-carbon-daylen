@@ -1,10 +1,10 @@
 {
-  "name": "example",
+  "name": "daylen-web",
   "private": true,
   "version": "1.22.1",
   "license": "Apache 2.0",
   "scripts": {
-    "dev": "gatsby develop -H 0.0.0.0",
+    "dev": "gatsby de/mjmvelop -H 0.0.0.0",
     "dev:clean": "yarn clean && yarn dev",
     "build": "gatsby build",
     "build:clean": "yarn clean && gatsby build",
@@ -13,11 +13,12 @@
     "build:analyze": "ANALYZE=true yarn build"
   },
   "dependencies": {
+    "gatsby-plugin-nprogress": "latest",
+    "gatsby-plugin-manifest": "latest",
+    "gatsby-plugin-catch-links": "latest",
+    "gatsby-plugin-offline": "latest",
+    "gatsby-plugin-netlify-cms": "latest",
     "gatsby": "^2.19.0",
-    "gatsby-plugin-catch-links": "^2.3.7",
-    "gatsby-plugin-netlify-cms": "^4.3.7",
-    "gatsby-plugin-nprogress": "^2.3.6",
-    "gatsby-plugin-offline": "^3.2.13",
     "gatsby-theme-carbon": "^1.22.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
