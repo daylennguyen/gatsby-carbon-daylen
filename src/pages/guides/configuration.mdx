@@ -16,7 +16,10 @@ Gatsby themes allow you to override configuration from the theme by defining the
   <AnchorLink>Additional font weights</AnchorLink>
   <AnchorLink>Image compression</AnchorLink>
   <AnchorLink>Global search</AnchorLink>
+<<<<<<< HEAD
   <AnchorLink>Navigation style</AnchorLink>
+=======
+>>>>>>> 03e1828f880d92a523d8e0316f116ccd7d462552
   <AnchorLink>Edit on Github link</AnchorLink>
   <AnchorLink>Medium</AnchorLink>
   <AnchorLink>Other options</AnchorLink>
@@ -79,7 +82,11 @@ plugins: [
     {
       resolve: 'gatsby-theme-carbon',
       options: {
+<<<<<<< HEAD
         iconPath: './src/images/custom-icon-512.jpg'
+=======
+        iconPath: './src/images/custom-icon-512.png'
+>>>>>>> 03e1828f880d92a523d8e0316f116ccd7d462552
       },
     },
   ],
@@ -140,6 +147,7 @@ Global search is enabled by default. To disable it, set the `isSearchEnabled` op
 Under the hood, we use [Lunr](https://lunrjs.com/) to create our search index. If necessary, you tweak the search scoring algorithm and source nodes.
 To do so, provide your own [resolvers object](https://www.gatsbyjs.org/packages/gatsby-plugin-lunr/#getting-started) to the `lunrOptions` theme option.
 
+<<<<<<< HEAD
 ## Navigation style
 
 By default, the navigation style used by the theme is a sidebar that sits on the left-hand side of the screen. You can see it right now as you read this documentation. This style works great for websites with a lot of content, like documentation sites. 
@@ -172,12 +180,17 @@ With the header navigation style enabled, the content on your page will be furth
 
 **Just a note:** In mobile-view, when the header navigation is enabled, the sidebar will persist.
 
+=======
+>>>>>>> 03e1828f880d92a523d8e0316f116ccd7d462552
 ## Edit on GitHub link
 
 To add a link to the bottom of each page that points to the current page source in GitHub, provide a `repository` object to `siteMetadata` in your `gatsby-config.js` file. You can provide a `baseUrl`, and if needed, the `subDirectory` and `branch` where your site source lives.
 
+<<<<<<< HEAD
 To disable the `Edit in Github` link, remove the `repository` option. If the options object is now empty, delete it all together.
 
+=======
+>>>>>>> 03e1828f880d92a523d8e0316f116ccd7d462552
 ```js
   plugins: [
     {
@@ -236,9 +249,12 @@ plugins: [
 ## Additional remark plugins and override existing remark plugin configuration
 
 - `gatsbyRemarkPlugins` - An array containing gatsby remark plugin configurations to be added/overridden.
+<<<<<<< HEAD
 - `remarkPlugins` - An array containing [remark plugin configurations](https://www.gatsbyjs.org/packages/gatsby-plugin-mdx/#remark-plugins) to be added.
 
 The `gatsbyRemarkPlugins` option is compatible with all gatsby-remark-* plugins, for example `gatsby-remark-mermaid`. If a gatsby remark plugin does not work, you can try calling the (underlying) remark plugin directly using the `remarkPlugins` option.
+=======
+>>>>>>> 03e1828f880d92a523d8e0316f116ccd7d462552
 
 ### Example [Gatsby Remark Mermaid plugin](https://www.gatsbyjs.org/packages/gatsby-remark-mermaid/)
 
@@ -286,6 +302,7 @@ to turn into an image one should add the following configuration to her/his own 
   ],
 
 ```
+<<<<<<< HEAD
 
 ### Example [Remark Grid Tables](https://github.com/zestedesavoir/zmarkdown/tree/master/packages/remark-grid-tables)
 
@@ -321,3 +338,5 @@ After installing the `remark-grid-tables` plugin, add it to the `remarkPlugins` 
     },
   ],
 ```
+=======
+>>>>>>> 03e1828f880d92a523d8e0316f116ccd7d462552
